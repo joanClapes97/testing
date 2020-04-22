@@ -9,3 +9,19 @@ Once cloned, put our files inside the repository we cloned.
 # NOTE: the repository contains a hided directory, .git, which allows
 us to communicate with it
 """
+
+"""
+Enter the repo, see (master) at the beggining of the command line. Now, since we
+have added files in there, do git status first to see how we are doing.
+Then, do git add gittest.py , then git commit -m "first commit" , and
+finally do git push to communicate with GitHub the changes we have made.
+"""
+
+"""
+Now, the new employee will then for example clone the repo and he will have
+what Joan pushed. Then, both employees are working locally, byut can communicate
+with GitHub, with the repository which is saved locally somewhere.
+"""
+
+def summ(a, b):
+    return a+b
