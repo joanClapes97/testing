@@ -28,5 +28,11 @@ Now, if Joan makes another commit and pushes it, then New employee has to
 do git pull.
 """
 
+"""
+git branch
+git branch name_branch
+git checkout name_branch
+"""
+
 def summ(a, b):
     return a+b
