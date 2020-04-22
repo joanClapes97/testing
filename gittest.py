@@ -19,8 +19,13 @@ finally do git push to communicate with GitHub the changes we have made.
 
 """
 Now, the new employee will then for example clone the repo and he will have
-what Joan pushed. Then, both employees are working locally, byut can communicate
+what Joan pushed. Then, both employees are working locally, but can communicate
 with GitHub, with the repository which is saved locally somewhere.
+"""
+
+"""
+Now, if Joan makes another commit and pushes it, then New employee has to
+do git pull.
 """
 
 def summ(a, b):
